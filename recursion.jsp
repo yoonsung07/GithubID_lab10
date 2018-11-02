@@ -113,7 +113,8 @@ public int fibonacci(int n)
      *      
      * THIS CLASS IS PROVIDED FOR YOU. YOU SHOULD NOT CHANGE IT!
      * 
-     * @author Stephen
+     * Helpers: Reza & Dao Lee.
+     * @author Sung Jae Yoon
      * @version 2018-04-23
      */
 protected final class Tree
@@ -124,6 +125,9 @@ protected final class Tree
     public Tree(int value)
     {
 	//TODO
+	// labeled the value of the private 
+	// Which holds the value inside
+	// the public Tree.
 	this.value = value;
 	this.children = new ArrayList<>();
     }
@@ -131,21 +135,23 @@ protected final class Tree
     public int getValue()
     {
 	//TODO
+	// returns the value.
 	return value;
     }
     
     public ArrayList<Tree> getChildren()
     {
 	//TODO
+	// return the children.
 	return children;
     }
     
     public void add(Tree child)
     {
 	//TODO
+	// adding the child into the children Arraylist.
 	children.add(child);
-	
-	//ArrayList<> children = new ArrayList<>();
+
     }
 }
     
