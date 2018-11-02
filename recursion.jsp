@@ -35,6 +35,8 @@ public int factorial(int value)
        */
 
 	//TODO
+	// Appield the return when the vaule 
+	// is true when 1, then returns 1.
 	if (value == 1)
 	{
 		return 1;
