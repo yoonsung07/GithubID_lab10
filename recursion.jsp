@@ -203,10 +203,16 @@ public int nnaryTreeSize(int branchingFactor, int height)
 public int treeSum(Tree tree)
 {
 	//TODO
+	// If else statement:
+	// If: tree that gets the childrens's size is zero,
+	// then it returns the tree's value.
 	if (tree.getChildren().size() == 0)
 	{
 		return tree.getValue();
 	}
+	// If it's doesn't equals to 0, 
+	// then enters the fr loop that loops for the 
+	//total of the treeSum(T), the returns it. 
 	else
 	{
 		int total = 0;
