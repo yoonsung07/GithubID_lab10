@@ -181,9 +181,11 @@ public int nnaryTreeSize(int branchingFactor, int height)
     if (height == 1) 
     {
 	//TODO
+	// Returns the value of 1.
 		return 1;
     }
 	//TODO
+	// returns the math of the branchingFactor, heigth. 
 	else
 	{
 		return branchingFactor * nnaryTreeSize(branchingFactor,height-1);
