@@ -77,6 +77,9 @@ public int factorial(int value)
 public int fibonacci(int n)
 {
 	//TODO
+	// The creting on the if and else statments 
+	// when fibonnacci number would computes to
+	// what n is represnt as a value.
 	if (n == 0)
 	{
 		return 1;
